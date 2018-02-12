@@ -1,0 +1,1 @@
+I would suggest to keep AWS related code (in this case S3) to be keep in different module or separate project. Your core logic should not be dependent on infrastructure services.  For the sake of simplicity and because this is just sample, I put that within same module under separate package.
